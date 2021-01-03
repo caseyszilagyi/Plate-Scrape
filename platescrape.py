@@ -36,11 +36,11 @@ import lxml
 #Page: https://twitter.com/CastPrice
 import tweepy as tp
 import os
-APIKey = "Lhcnye2K3sKUiwimLwz0ET2qt"
-APISecretKey = "5EVmjTS2Q59K2gnTg2kGHwpDbKRHwIMFDDXwYB4lnSjnXuQAfv"
-AccessToken = "1334966865731448832-8k0oBUnUotF5oCKDMj8THsAOKoR4xh"
-AccessTokenSecret = "3pGY3nSHhqVn9znwnaXojfKASTORiBWAitSPVWa155ZIh"
-BearerToken = "AAAAAAAAAAAAAAAAAAAAAOtsKQEAAAAAyowOIGR2YX47m4XaTx0AeMy2s1g%3DzWKIDDcTXLCQlFEXrl4Rwe8gndWqyPMeGDeSMujqZ61s7iWf0G"
+APIKey = ""
+APISecretKey = ""
+AccessToken = ""
+AccessTokenSecret = ""
+BearerToken = ""
 #Login
 auth = tp.OAuthHandler(APIKey, APISecretKey)
 auth.set_access_token(AccessToken, AccessTokenSecret)
